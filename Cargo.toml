@@ -1,0 +1,13 @@
+[package]
+name = "representation-theory"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "Representation theory in Rust — group representations, irreducible representations, characters, Lie algebra representations"
+repository = "https://github.com/SuperInstance/representation-theory"
+
+[dependencies]
+nalgebra = { version = "0.33", features = ["serde-serialize"] }
+serde = { version = "1", features = ["derive"] }
+num-complex = { version = "0.4", features = ["serde"] }
+num-traits = "0.2"
